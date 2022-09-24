@@ -1,0 +1,382 @@
+@media only screen and (max-width: 1599px){
+    #home .floating-circle{
+        display: none;
+    }
+    .container{
+        width: 80%;
+    }
+    .floating-img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .mission-description{
+        margin-left: 35%;
+        width: 50%;
+    }
+
+    .cta-container h1{
+        font-size: 2.25rem;
+    }
+    .constulting-service-card:nth-child(2) .floating-img{
+        right: 7.5%;
+    }
+}
+@media only screen and (max-width: 1366px){
+    .floating-img{
+        width: 150px;
+        height: 150px;
+        bottom: -35%;
+    }
+    .about-container .about-body{
+        width: 45%;
+    }
+    .about-container .about-img{
+        width: 50%;
+    }
+    .about-container{
+        align-items: center;
+    }
+    .contact-container .contact-card h3{
+        font-size: 1.5rem;
+    }
+    .consulting-hero .cs-hero-content h1{
+        font-size: 4rem;
+    }
+
+    #benefits .section-heading{
+        font-size: 4rem;
+    }
+    .mission-title{
+        font-size: 3rem;
+        width: 60%;
+    }
+
+    .constulting-service-card .floating-img{
+        width: 100px;
+        height: 100px;
+    }
+    .cta-container h1{
+        font-size: 2rem;
+    }
+    .contact-hero-container .floating-img{
+        width: 100px;
+        height: 100px;
+    }
+    .contact-hero-container .floating-img:nth-child(6){
+        top: 60%;
+        left: 10%;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .container{
+        width: 85%;
+    }
+    .hero-container{
+        width: 85%;
+        margin: 0 auto;
+        z-index: 5;
+        margin-top: 5%;
+    }
+    .hero-container p{
+        width: 85%;
+        margin: 25px auto;
+    }
+    .services-container .floating-circle{
+        width: 200px;
+        height: 200px;
+        right: 25%;
+    }
+    .services-container{
+        flex-wrap: wrap;
+    }
+    .services-container .service-card{
+        width: calc(50% - 20px);
+        margin: 20px 0;
+    }
+    .floating-img{
+        display: none;
+    }
+    
+    .footer-links .logo{
+        margin: 0 25px;
+    }
+    .footer-links .logo img, .footer-links .logo{
+        width: 200px;
+    }
+
+    .about-hero-container .about-hero-body h1{
+        font-size: 3.25rem;
+    }
+    .about-hero-container .about-hero-body p{
+        font-size: 1.3rem;
+    }
+    .pf-heading{
+        font-size: 3rem;
+    }
+    .pf-cta{
+        font-size: 1.5rem;
+    }
+
+    .acc-hero-container h1{
+        font-size: 3.5rem;
+    }
+    .acc-benefits-container .acc-benefits-body h2{
+        font-size: 2rem;
+    }
+    .acc-benefits-container .acc-benefits-body p{
+        font-size: 1.25rem;
+    }
+    .cta-container h1{
+        font-size: 1.75rem;
+    }
+    .constulting-service-card .cs-body h2{
+        font-size: 2.75rem;
+    }
+}
+@media only screen and (max-width: 991px){
+    .sidebar-transition{
+        transition: .5s ease-in-out;
+    }
+    .sidebar-active{
+        transform: translateX(0);
+    }
+    .nav-links{
+        display: none;
+    }
+    .burger, .sidebar{
+        transition: all .7s ease;
+        display: block;
+    }
+    .burger-translated{
+        right: calc(50% - 20px);
+        transform: rotate(90deg);
+    }
+
+    .hero-img img{
+        margin-top: 25px;
+    }
+
+    .about-container{
+        flex-flow: column;
+    }
+    .about-container .about-body{
+        margin-top: 10%;
+        width: 100%;
+    }
+    .about-container .about-img{
+        width: 90%;
+    }
+    .about-container .about-body .about-cta{
+        align-self: center;
+    }
+    .contact-container .contact-card h3{
+        font-size: 1rem;
+    }
+
+    .footer-links, .footer-links ul{
+        flex-flow: column;
+    }
+    .footer-links ul li{
+        margin: 10px 0;
+    }
+    .footer-links .logo{
+        display: none;
+    }
+    .footer-container p{
+        text-align: center;
+    }
+    .floating-circle{
+        display: none;
+    }
+
+    .about-hero-container .about-hero-body h1{
+        font-size: 2.25rem;
+    }
+    .about-hero-container .about-hero-body p{
+        font-size: 1.15rem;
+    }
+    .about-hero-container .about-hero-body .about-hero-satisfied{
+        flex-flow: column;
+        align-items: flex-start;
+    }
+    .about-hero-container .about-hero-body .about-hero-satisfied p{
+        margin: 10px 0;
+    }
+    #benefits .section-heading{
+        font-size: 3rem;
+    }
+    .benefits-container .benefit-card .benefit-body p{
+        width: 100%;
+    }
+    .benefits-container .benefit-card{
+        width: 100%;
+    }
+
+    .acc-benefits-container{
+        flex-flow: column-reverse;
+    }
+    .acc-benefits-container .acc-img{
+        width: 60%;
+    }
+    .acc-benefits-container .acc-benefits-body{
+        width: 85%;
+    }
+    .acc-certified-container h2{
+        font-size: 2.25rem;
+        width: 75%;
+    }
+    .acc-features-section-title{
+        font-size: 2.25rem;
+    }
+    .acc-features-container .acc-feature-card{
+        width: calc(50% - 25px);
+        margin: 25px 0;
+    }
+
+    .video-container video{
+        width: 100%;
+        min-width: unset;
+    }
+    .cta-container .consulting-cta{
+        padding: 10px 30px;
+        font-size: 1rem;
+    }
+    .cta-container h1{
+        font-size: 1.5rem;
+    }
+    .constulting-service-card .cs-body{
+        width: 40%;
+    }
+
+    .contact-section-heading p, .contact-hero-container .contact-form input, .contact-hero-container .contact-form textarea, .newsletter-container input{
+        width: 70%;
+    }
+    .newsletter-container h2{
+        font-size: 3rem;
+    }
+}
+@media only screen and (max-width: 678px){
+    .container{
+        width: calc(100% - 25px)
+    }
+    .hero-img img{
+        animation: none;
+    }
+    .services-container .service-card{
+        width: 100%;
+    }
+    .contact-container{
+        flex-flow: column;
+    }
+    .contact-container .contact-card{
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .about-hero-container{
+        flex-flow: column;
+    }
+    .about-hero-container .about-hero-body{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .about-hero-container .about-hero-body .about-hero-satisfied{
+        align-items: center;
+    }
+    .benefits-container .benefit-card{
+        flex-flow: column;
+    }
+    .benefits-container .benefit-card ion-icon{
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .mission-title{
+        font-size: 2.5rem;
+        margin-left: 10%;
+    }
+    .mission-description{
+        font-size: 1.25rem;
+        width: 60%;
+        margin-left: 25%;
+    }
+    .pf-heading{
+        font-size: 2rem;
+    }
+    .team-container .team-member{
+        flex-flow: column;
+    }
+    .member-details, .member-description{
+        width: 100%;
+    }
+    .team-member .member-details{
+        text-align: center;
+    }
+    .member-img{
+        width: 40%;
+        margin: 25px 0;
+    }
+    .member-details, .member-description{
+        text-align: centerd;
+    }
+
+    .acc-hero-container h1{
+        font-size: 2.25rem;
+    }
+    .acc-hero-container p{
+        font-size: 1.25rem;
+    }
+    .acc-certified-container h2{
+        font-size: 1.5rem;
+        width: 85%;
+    }
+    .acc-certified-container{
+        padding: 7.5% 0;
+    }
+    .acc-features-section-title{
+        font-size: 2rem;
+    }
+    .acc-features-container .acc-feature-card{
+        width: 90%;
+        margin: 25px auto;
+    }
+    .consulting-hero .cs-hero-content h1{
+        font-size: 2.5rem;
+        width: 95%;
+    }
+    .consulting-hero .cs-hero-content p{
+        margin-top: 20px;
+        width: 80%;
+    }
+
+    .constulting-service-card{
+        flex-flow: column;
+    }
+    .constulting-service-card .cs-img{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .constulting-service-card .cs-body{
+        width: 80%;
+        margin-top: 25px;
+    }
+    .cta-container{
+        flex-flow: column;
+    }
+    .cta-container h1{
+        width: 90%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .contact-section-heading p, .contact-hero-container .contact-form input, .contact-hero-container .contact-form textarea, .newsletter-container input{
+        width: 90%;
+    }
+    .contact-section-heading h1{
+        font-size: 3rem;
+    }
+    .newsletter-container h2{
+        font-size: 2.5rem;
+    }
+}

@@ -1,0 +1,162 @@
+:root{
+    --color-primary: #5DA3FA;
+    --color-secondary: #3944F7;
+    --color-text-dark:#000995;
+    --color-text-light:#AFAFAF;
+    --color-bg-gray:#EFEFEF;
+
+    --font-main: "Thiccboi"
+}
+
+@font-face {
+    font-family: "Thiccboi";
+    src: url('../font/THICCCBOI-Black.ttf') format("truetype");
+    font-weight: 900;
+}
+@font-face {
+    font-family: "Thiccboi";
+    src: url('../font/THICCCBOI-SemiBold.ttf') format("truetype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Thiccboi";
+    src: url('../font/THICCCBOI-Regular.ttf') format("truetype");
+    font-weight: normal;
+}
+
+/* Hero */
+
+nav{
+    position: absolute;
+}
+.nav-links ul li{
+    color: white;
+}
+.video-container video{
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: -9;
+    filter: brightness(50%);
+}
+.consulting-hero{
+    display: grid;
+    place-items: center;
+    height: 100%;
+    margin-bottom: 10%;
+}
+.consulting-hero .cs-hero-content{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+}
+.consulting-hero .cs-hero-content h1{
+    color: var(--color-primary);
+    width: 70%;
+    font-size: 4.5rem;
+}
+.consulting-hero .cs-hero-content p{
+    font-size: 1.25rem;
+    color: #cfcfcf;
+    margin-bottom: 25px;
+}
+.consulting-hero .cs-hero-content .consulting-hero-cta{
+    padding: 15px 50px;
+    border-radius: 25px;
+    border-bottom-left-radius: 0;
+}
+
+/* Services */
+
+.constulting-service-card{
+    width: 100%;
+    padding: 10% 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.cscard-reverse{
+    flex-flow: row-reverse;
+}
+.constulting-service-card .cs-img{
+    width: 50%;
+    border-radius: 15px;
+    margin-left: -100px;
+    box-shadow: 25px 0px 50px 0px #cfcfcf;
+    margin-right: 100px;
+}
+.cscard-reverse .cs-img{
+    margin-right: -100px;
+    box-shadow: -25px 0px 50px 0px #cfcfcf;
+    margin-left: 100px;
+}
+.constulting-service-card .cs-img img{
+    border-radius: 15px;
+    width: 100%;
+}
+.constulting-service-card .cs-body{
+    width: 30%;
+}
+.constulting-service-card .cs-body h2{
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: var(--color-text-dark);
+}
+.constulting-service-card .cs-body p{
+    font-size: 1.25rem;
+    color: var(--color-text-light);
+}
+
+/* CTA Section */
+
+.cta-container{
+    background: var(--color-primary);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    padding: 5% 2.5%;
+    justify-content: space-around;
+    margin-bottom: 10%;
+}
+.cta-container h1{
+    font-size: 2.5rem;
+    width: 60%;
+}
+.cta-container .consulting-cta{
+    padding: 15px 50px;
+    background: white;
+    color: var(--color-text-dark);
+    border-radius: 25px;
+    border-bottom-left-radius: 0;
+    font-size: 1.25rem;
+}
+
+/* Floating Images */
+
+.constulting-service-card .floating-img{
+    width: 150px;
+    animation: none;
+    height: 150px;
+}
+.constulting-service-card:nth-child(2) .floating-img{
+    top: calc(50% - 50px);
+    right: 10%;
+}
+.constulting-service-card:nth-child(3) .floating-img{
+    top: 25%;
+    left: 10%;
+}
+.constulting-service-card:nth-child(3) .floating-img:nth-child(2){
+    top: 70%;
+    left: 35%;
+}
+.constulting-service-card:nth-child(4) .floating-img{
+    top: 20%;
+    right: 20%;
+}
+.constulting-service-card:nth-child(5) .floating-img{
+    bottom: 15%;
+    left: 15%;
+}

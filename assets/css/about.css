@@ -1,0 +1,239 @@
+:root{
+    --color-primary: #5DA3FA;
+    --color-secondary: #3944F7;
+    --color-text-dark:#000995;
+    --color-text-light:#AFAFAF;
+    --color-bg-gray:#EFEFEF;
+
+    --font-main: "Thiccboi"
+}
+
+@font-face {
+    font-family: "Thiccboi";
+    src: url('../font/THICCCBOI-Black.ttf') format("truetype");
+    font-weight: 900;
+}
+@font-face {
+    font-family: "Thiccboi";
+    src: url('../font/THICCCBOI-SemiBold.ttf') format("truetype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Thiccboi";
+    src: url('../font/THICCCBOI-Regular.ttf') format("truetype");
+    font-weight: normal;
+}
+
+.about-hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-hero-container .hero-left{
+    width: 35%;
+    margin-top: 5%;
+}
+.about-hero-container .hero-left img{
+    width: 100%;
+}
+.about-hero-container .about-hero-body{
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+}
+.about-hero-container .about-hero-body h1{
+    color: var(--color-text-dark);
+    font-size: 4.5rem;
+}
+.about-hero-container .about-hero-body p{
+    color: var(--color-text-light);
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+.about-hero-container .about-hero-body .about-hero-satisfied{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.about-hero-container .about-hero-body .about-hero-satisfied .satisfied-img{
+    display: flex;
+    align-items: center;
+}
+.about-hero-container .about-hero-body .about-hero-satisfied .satisfied-img .img-wrapper{
+    width: 50px;
+    height: 50px;
+    margin-right: -25px;
+    border-radius: 50%;
+    padding: 10px;
+    background: white;
+    border: 1px solid var(--color-secondary);
+}
+.about-hero-container .about-hero-body .about-hero-satisfied .satisfied-img .img-wrapper img{
+    width: 80%;
+    margin: 0 10%;
+}
+.about-hero-container .about-hero-body .about-hero-satisfied p{
+    margin-left: 35px;
+    margin-top: 0;
+    font-size: 1.15rem;
+    color: var(--color-primary);
+    font-weight: 900;
+}
+
+/* Benefits */
+
+#benefits{
+    margin: 15% 0;
+}
+#benefits .section-heading{
+    font-size: 6rem;
+    color: var(--color-text-dark);
+    text-align: center;
+    width: 80%;
+    margin: 10% auto;
+}
+.benefits-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.benefits-container .benefit-card{
+    width: calc(50% - 25px);
+    margin: 25px 0;
+    display: flex;
+}
+.benefits-container .benefit-card .benefit-body{
+    display: flex;
+    flex-flow: column;
+}
+.benefits-container .benefit-card ion-icon{
+    width: 75px;
+    height: 75px;
+    align-self: flex-start;
+    margin-right: 25px;
+    color: var(--color-primary);
+}
+.benefits-container .benefit-card .benefit-body h2{
+    color: var(--color-text-dark);
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.benefits-container .benefit-card .benefit-body p{
+    color: var(--color-text-light);
+    width: 70%;
+    font-size: 1.5rem;
+}
+
+/* Mission */
+#mission{
+    margin: 20% 0;
+}
+.mission-title{
+    color: var(--color-text-dark);
+    font-size: 3.5rem;
+    width: 50%;
+    margin-left: 15%;
+}
+.mission-description{
+    font-size: 1.5rem;
+    color: var(--color-text-light);
+    width: 40%;
+    margin-left: 45%;
+    margin-top: 25px;
+}
+
+/* Team */
+
+.team-container{
+    display: flex;
+    flex-flow: column;
+}
+.team-member{
+    margin: 10% 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.member-details, .member-description{
+    width: 40%;
+}
+.member-img{
+    width: 15%;
+    margin: 0 25px;
+}
+.member-img img{
+    width: 100%;
+}
+.team-member .member-details{
+    text-align: end;
+}
+.team-member .member-details h2{
+    font-size: 3.5rem;
+    color: var(--color-text-dark);
+}
+.team-member .member-details label{
+    color: var(--color-text-light);
+    font-size: 1.25rem;
+}
+.team-member .member-description p{
+    color: var(--color-text-light);
+    font-size: 1.25rem;
+}
+.team-member .member-description p:last-child{
+    color: var(--color-primary);
+}
+
+/* Pre-Footer */
+
+#pre-footer{
+    margin-top: 10%;
+    background: var(--color-primary);
+}
+.pf-container{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 50px 0;
+}
+.pf-line{
+    width: 100%;
+    height: 2px;
+    background: white;
+}
+.pf-heading{
+    color: var(--color-text-dark);
+    font-size: 4rem;
+    padding: 5% 0;
+    text-align: center;
+}
+.pf-cta{
+    text-align: center;
+    font-size: 1.75rem;
+    padding: 10px 40px;
+    background: white;
+    border-radius: 25px;
+    border-bottom-left-radius: 0;
+    color: var(--color-text-dark);
+    font-weight: bold;
+    transition: all .2s ease-in-out;
+}
+.pf-cta:hover{
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 25px;
+}
+
+/* Animation Observer */
+
+.benefits-container .benefit-card:nth-child(3), .benefits-container .benefit-card:nth-child(4){
+    transition-delay: 300ms;
+} 
+.team-container .team-member:nth-child(2){
+    transition-delay: 200ms;
+}
+.team-container .team-member:nth-child(3){
+    transition-delay: 300ms;
+}
+.team-container .team-member:nth-child(4){
+    transition-delay: 400ms;
+}

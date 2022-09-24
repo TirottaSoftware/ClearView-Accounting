@@ -1,0 +1,229 @@
+:root{
+    --color-primary: #5DA3FA;
+    --color-secondary: #3944F7;
+    --color-text-dark:#000995;
+    --color-text-light:#AFAFAF;
+    --color-bg-gray:#EFEFEF;
+
+    --font-main: "Thiccboi"
+}
+
+@font-face {
+    font-family: "Thiccboi";
+    src: url('../font/THICCCBOI-Black.ttf') format("truetype");
+    font-weight: 900;
+}
+@font-face {
+    font-family: "Thiccboi";
+    src: url('../font/THICCCBOI-SemiBold.ttf') format("truetype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Thiccboi";
+    src: url('../font/THICCCBOI-Regular.ttf') format("truetype");
+    font-weight: normal;
+}
+
+/* Hero */
+
+.acc-hero-container{
+    margin: 10% auto;
+    text-align: center;
+}
+.acc-hero-container h1{
+    font-size: 4rem;
+    color: var(--color-text-dark);
+}
+.acc-hero-container p{
+    font-size: 1.5rem;
+    color: var(--color-text-light);
+    margin-top: 25px;
+}
+.acc-hero-container .acc-hero-img{
+    width: 35%;
+    margin: 15% auto 0 auto;
+}
+.acc-hero-container .acc-hero-img img{
+    width: 100%;
+}
+.acc-hero-container .floating-img:first-child{
+    top: 25%;
+    left: 0;
+    width: 200px;
+    height: 200px;
+}
+.acc-hero-container .floating-img:nth-child(2){
+    top: 45%;
+    right: 0;
+    width: 200px;
+    height: 200px;
+}
+
+/* Benefits */
+
+.acc-benefits-container{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.acc-benefits-container .acc-img{
+    width: 35%;
+    margin-right: 2.5%;
+}
+.acc-benefits-container .acc-img img{
+    width: 100%;
+}
+.acc-benefits-container .acc-benefits-body{
+    display: flex;
+    flex-flow: column;
+    width: 60%;
+    margin-left: 2.5%;
+    align-items: flex-start;
+}
+.acc-benefits-container .acc-benefits-body h2{
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: var(--color-text-dark);
+}
+.acc-benefits-container .acc-benefits-body p{
+    font-size: 1.5rem;
+    width: 90%;
+    color: var(--color-text-light);
+}
+.acc-benefits-container .acc-benefits-body .acc-benefits-list{
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 25px;
+}
+.acc-benefits-container .acc-benefits-body .acc-benefits-list .acc-benefit-row{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.acc-benefits-container .acc-benefits-body .acc-benefits-list .acc-benefit-row p{
+    font-size: 1.25rem;
+    width: 100%;
+    color: var(--color-text-light);
+}
+.acc-benefits-container .acc-benefits-body .acc-benefits-list .acc-benefit-row ion-icon{
+    width: 50px;
+    height: 50px;
+    color: var(--color-primary);
+    margin-right: 10px;
+}
+
+
+/* Certified */
+
+#acc-certified{
+    background: var(--color-primary);
+    margin: 10% 0;
+}
+.acc-certified-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.acc-certified-container h2{
+    font-size: 2.75rem;
+    color: var(--color-text-dark);
+    width: 60%;
+}
+.acc-certified-container .certified-img{
+    width: 30%;
+    padding: 5%;
+}
+.acc-certified-container .certified-img img{
+    width: 100%;
+}
+
+/* Features */
+
+.acc-features-section-title{
+    font-size: 3.5rem;
+    color: var(--color-text-dark);
+    text-align: center;
+}
+.acc-features-container{
+    padding: 5% 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.acc-features-container .acc-feature-card{
+    width: calc(50% - 50px);
+    background: var(--color-bg-gray);
+    margin: 50px 0;
+    border-radius: 15px;
+    padding: 4% 2.5% 3.5% 2.5%;
+}
+.acc-features-container .acc-feature-card h3{
+    color: var(--color-text-dark);
+    font-size: 1.75rem;
+    margin-bottom: 15px;
+}
+.acc-features-container .acc-feature-card p{
+    font-size: 1.25rem;
+    color: #9998a5;
+}
+
+/* Other Services */
+
+.os-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10% auto;
+}
+.os-card{
+    width: 30%;
+    background: var(--color-bg-gray);
+    border-radius: 15px;
+}
+.os-card .os-img{
+    margin-bottom: 15px;
+}
+.os-card .os-img, .os-card .os-img img{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border: 1px solid var(--color-primary);
+}
+.os-card a{
+    font-weight: bold;
+    color: var(--color-text-dark);
+    font-size: 1.5rem;
+    margin: 15px;
+}
+.os-card p{
+    font-size: 1.15rem;
+    color: #9998a5;
+    margin: 25px 15px;
+}
+
+/* Animations */
+
+.acc-benefits-list .acc-benefit-row:nth-child(2){
+    transition-delay: 350ms;
+}
+.acc-benefits-list .acc-benefit-row:nth-child(3){
+    transition-delay: 600ms;
+}
+.acc-benefits-list .acc-benefit-row:nth-child(4){
+    transition-delay: 850ms;
+}
+.acc-features-container .acc-feature-card:nth-child(3), .acc-features-container .acc-feature-card:nth-child(4){
+    transition-delay: 250ms;
+}
+.os-container .os-card:nth-child(2){
+    transition-delay: 200ms;
+}
+.os-container .os-card:nth-child(3){
+    transition-delay: 300ms;
+}
+.os-container .os-card:nth-child(4){
+    transition-delay: 400ms;
+}
